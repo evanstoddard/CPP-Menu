@@ -1,4 +1,4 @@
-# CPP_Menu
+# CPP Menu
 Simple C++ menu creation.
 
 Create simple menus easily.
@@ -28,6 +28,10 @@ Menu menuWithHeaderAndCallback("Select one of the following options: ");  // Men
 Menu menu;
 menu.addItem("My Item");                            // Item without callback
 menu.addItem("My Item w/Callback", &itemCallback);  // Item with callback
+```
+**Print Menu**
+```c++
+menu.printMenu();
 ```
 
 **Callbacks**
