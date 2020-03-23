@@ -23,16 +23,16 @@ int main(int argc, const char * argv[]) {
     // Menu with no header or global callback
     Menu defaultMenu;
     defaultMenu.addItem("Option 0", &option0);
-    defaultMenu.addItem("Option 1", &option0);
-    defaultMenu.addItem("Option 2", &option0);
+    defaultMenu.addItem("Option 1", &option1);
+    defaultMenu.addItem("Option 2", &option2);
     
     defaultMenu.printMenu();
     
     // Menu with header and no global callback
     Menu headerMenu("Select an option");
     headerMenu.addItem("Option 0", &option0);
-    headerMenu.addItem("Option 1", &option0);
-    headerMenu.addItem("Option 2", &option0);
+    headerMenu.addItem("Option 1", &option1);
+    headerMenu.addItem("Option 2", &option2);
     
     headerMenu.printMenu();
     
