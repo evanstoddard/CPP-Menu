@@ -3,6 +3,8 @@ Simple C++ menu creation.
 
 Create simple menus easily.
 
+![Example Output](https://user-images.githubusercontent.com/4554022/77284155-65686c00-6ca4-11ea-9902-6ca91e7f250f.png)
+
 Support for individual callbacks per item *and/or* a global callback which passes back the selected index.
 
 ## Usage
