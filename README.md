@@ -3,7 +3,7 @@ Simple C++ menu creation.
 
 Create simple menus easily.
 
-Support for individual callbacks per item or a global callback with passes back the selected index.
+Support for individual callbacks per item *and/or* a global callback with passes back the selected index.
 
 ## Usage
 
