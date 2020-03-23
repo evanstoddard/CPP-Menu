@@ -1,4 +1,6 @@
 # CPP Menu
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=79DG973MCADQC&currency_code=USD&source=url)
+
 Simple C++ menu creation.
 
 Create simple menus easily.
